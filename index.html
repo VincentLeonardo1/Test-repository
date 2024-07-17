@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Band</title>
+    <style>
+      ul {
+        position: sticky;
+        list-style-type: none;
+        top: 0;
+        margin: 0;
+        padding: 0px;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+
+      .headclass {
+        border: 2px solid #ddd;
+        border-radius: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+      h3{
+        text-align: center;
+        color: grey;
+      }
+      .member {
+        display: flex;
+        justify-content: space-between;
+      }
+      .contact{
+        text-align: center;
+      }
+      .message {
+        width: 100%;
+        text-align: center;
+      }
+      .tour {
+        background-color: black;
+      }
+      .place{
+        margin: auto;
+        width: 50%;
+        border: 3px solid black;
+        padding: 0px;
+      }
+      .card {
+        border: 1px solid black;
+        top: 0px;
+        right: 0;
+        width: 700px;
+        height: 50px;
+        background-color: white;
+      }
+      .tourdetail{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+
+      }
+      .container {
+        padding: 2px 16px;
+        color: black;
+      }
+      .p {
+        color: white;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <div>
+      <img class="headclass" src="thumbnail.jpeg" alt="band pic here" />
+    </div>
+
+    <div>
+      <h1>The Band Concert</h1>
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nisi sit,
+      quasi nam, numquam architecto hic debitis impedit ipsam a laboriosam
+      repellendus libero eius quia ullam. Fugiat sint accusantium quidem! Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Architecto, deserunt
+      distinctio fugit iste illum asperiores sapiente eaque et minus labore odit
+      quo molestias? Hic consequatur sit praesentium nam facilis dolores? Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Vel reiciendis neque
+      nam porro explicabo, sit praesentium nisi quibusdam distinctio labore
+      tenetur dolore nulla nobis perferendis numquam id temporibus esse amet.
+    </div>
+
+    <div>
+      <h1>Band Member</h1>
+      <div class="member">
+        <img src="untitled.jpg" alt="There should be an image here" />
+        <img src="untitled.jpg" alt="There should be an image here" />
+        <img src="untitled.jpg" alt="There should be an image here" />
+      </div>
+      <div class="member">
+        <p>John</p>
+        <p>Paul</p>
+        <p>Lisa</p>
+      </div>
+      <div class="tour">
+        <h1>Tour Dates</h1>
+        <h3>Remember to book your tickets</h3>
+        <div class="place">
+            <ul class="card">
+                <li >September Sold out</li>
+              </ul>
+              <ul class="card">
+                <li>October Sold out</li>
+              </ul>
+              <ul class="card">
+                <li>November 3</li>
+              </ul>
+        </div>
+        <ul class="tourdetail">
+            <li>
+                <img src="untitled.jpg" alt="something is supposed to be here" style="width:50%">
+                <h4>New York</h4>
+                <h4>Fri 27 Nov 2016</h4>
+                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur porro natus quaerat, tempore illum consectetur aut asperiores quo aliquid alias! Tempore non tenetur fugiat eum magni qui officia rem similique?</h4>
+                <input type="button"  class="button1" value="Buy ticket">
+            </li>
+            <li>
+                <img src="untitled.jpg" alt="something is supposed to be here" style="width:50%">
+                <p>New York</p>
+                <h4><b>Fri 27 Nov 2016</b></h4>
+                <h4><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptates ea ut voluptas iste culpa corrupti cumque reiciendis maiores? Suscipit ratione adipisci sed voluptatibus repellendus illo aliquid, iure ipsa nostrum.</b></h4>
+                <input type="button"  class="button1" value="Buy ticket">
+            </li>
+            <li>
+                <img src="untitled.jpg" alt="something is supposed to be here" style="width:50%">
+                <h4>New York</h4>
+                <h4><b>Fri 27 Nov 2016</b></h4>
+                <h4><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint dignissimos quasi voluptatem explicabo autem dicta totam? Ex enim hic veritatis suscipit incidunt impedit possimus, sit qui cupiditate delectus repudiandae quia?</b></h4>
+                <input type="button"  class="button1" value="Buy ticket">
+            </li>
+            
+        </li>
+        </div>
+      <div>
+        <h1>Contact Us</h1>
+        <h2>Dimana,Disitu</h2>
+        <h2>Nomor hp: 123456789</h2>
+        <h2>Email: NotAReal@mail.com</h2>
+      </div>
+      <div class="contact">
+        <form>
+          <input
+            class="message"
+            type="text"
+            placeholder="Name"
+            required
+            name="Name"
+          />
+        </form>
+      </div>
+      <div class="contact">
+        <form>
+          <input
+            class="message"
+            type="text"
+            placeholder="Email"
+            required
+            name="Email"
+          />
+      </div>
+      <div class="contact">
+        <form>
+          <input
+            class="message"
+            type="text"
+            placeholder="Message"
+            required
+            name="Message"
+          />
+        </form>
+      </div>
+      <div class="member">
+        <form>
+          <input type="button" class="button" value="Submit">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
